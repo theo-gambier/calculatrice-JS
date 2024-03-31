@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculatrice</title>
+    <link rel="stylesheet" type="text/css" href="calculatrice.css">
+    <script src="calcul.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="text">
+        <form>
+            <textarea readonly id="screen"></textarea>
+        </form>
+    </div>
+    <div id="containerButtons">
+        <button class="operation getValue" id="clear" value="c">C</button>
+        <button class="operation getValue" id="erase" value="Backspace">E</button>
+    </div>
+
+    <div id="containerTouches">
+        <div>
+            <button class="nombre getValue" value="7">7</button>
+            <button class="nombre getValue" value="4">4</button>
+            <button class="nombre getValue" value="1">1</button>
+            <button class="operation getValue" value=".">.</button>
+        </div>
+        <div>
+            <button class="nombre getValue" value="8">8</button>
+            <button class="nombre getValue" value="5">5</button>
+            <button class="nombre getValue" value="2">2</button>
+            <button class="nombre getValue" value="0">0</button>
+        </div>
+        <div>
+            <button class="nombre getValue" value="9">9</button>
+            <button class="nombre getValue" value="6">6</button>
+            <button class="nombre getValue" value="3">3</button>
+            <button class="operation getValue" value="=">=</button>
+        </div>
+        <div>
+            <button class="operation getValue" value="/">/</button>
+            <button class="operation getValue" value="+">+</button>
+            <button class="operation getValue" value="-">-</button>
+            <button class="operation getValue" value="*">*</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
